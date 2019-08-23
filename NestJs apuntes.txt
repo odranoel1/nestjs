@@ -1,0 +1,24 @@
+NestJs
+
+tslint --> Nos ayuda a resaltar errores en typescript
+tsconfigjson --> Como funcionara typescript, en que carpeta va compilar el js
+rimraf --> Eliminar carpetas
+
+Usa diferentes paradigmas de progrmación:
+- POO
+- Progrmacion funcional
+- Progrmacion funcional reactiva
+
+Main.ts --> Arranca toda la configuración del proyecto
+controllers --> Son las rutas del servidor
+@Get --> Cada vez que se haga una petición get al servidor
+DTO(Data transfer object) --> Los objetos que voy enviar entre las aplicaciones
+Interfaces --> Nos ayudan a crear nuestros propios tipos de datos
+
+CLI
+npm start --> Ejecuta el servidor
+npm run start:dev --> Ejecuta nodemon
+
+nest generate controller tasks --> Generar un controlador(ruta)
+nest generate service tasks --> Genera un servicio(modelo de datos)
+nest generate module task --> Genera el modulo de la aplicación
